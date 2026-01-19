@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pneuservis Kamarád</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+<!-- Header -->
+<header class="bg-blue-700 text-white p-4">
+    <h1 class="text-3xl font-bold">Pneuservis Kamarád</h1>
+    <nav class="mt-2">
+        <a href="#home" class="mr-4 hover:underline">Domů</a>
+        <a href="#about" class="mr-4 hover:underline">O nás</a>
+        <a href="#services" class="mr-4 hover:underline">Služby</a>
+        <a href="#gallery" class="mr-4 hover:underline">Galerie</a>
+        <a href="#contact" class="hover:underline">Kontakt</a>
+    </nav>
+</header>
+
+<!-- Home Section -->
+<section id="home" class="p-8 text-center">
+    <h2 class="text-2xl font-semibold mb-2">Vítejte u našeho pneuservisu!</h2>
+    <p>Rychlá a spolehlivá výměna pneumatik, vyvážení a sezónní skladování. Přijďte si k nám pro profesionální služby.</p>
+    <img src="https://via.placeholder.com/600x300" alt="Pneuservis" class="mx-auto mt-4 rounded shadow">
+</section>
+
+<!-- About Section -->
+<section id="about" class="bg-white p-8">
+    <h2 class="text-2xl font-semibold mb-4">O nás</h2>
+    <p>Jsme rodinný pneuservis s více než 10 lety zkušeností. Naším cílem je poskytovat rychlé a kvalitní služby všem našim zákazníkům. Spokojenost a bezpečnost vašich vozidel jsou pro nás prioritou.</p>
+</section>
+
+<!-- Services Section -->
+<section id="services" class="p-8">
+    <h2 class="text-2xl font-semibold mb-4">Naše služby</h2>
+    <ul class="list-disc list-inside space-y-2">
+        <li>Výměna pneumatik</li>
+        <li>Vyvážení kol</li>
+        <li>Sezónní skladování pneumatik</li>
+        <li>Opravy pneumatik</li>
+        <li>Kontrola tlaku a stavu pneumatik</li>
+    </ul>
+</section>
+
+<!-- Gallery Section -->
+<section id="gallery" class="bg-white p-8">
+    <h2 class="text-2xl font-semibold mb-4">Galerie</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <img src="https://via.placeholder.com/300x200" alt="Servis 1" class="rounded shadow">
+        <img src="https://via.placeholder.com/300x200" alt="Servis 2" class="rounded shadow">
+        <img src="https://via.placeholder.com/300x200" alt="Servis 3" class="rounded shadow">
+        <img src="https://via.placeholder.com/300x200" alt="Servis 4" class="rounded shadow">
+        <img src="https://via.placeholder.com/300x200" alt="Servis 5" class="rounded shadow">
+        <img src="https://via.placeholder.com/300x200" alt="Servis 6" class="rounded shadow">
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="p-8">
+    <h2 class="text-2xl font-semibold mb-4">Kontakt</h2>
+    <p>Adresa: Ulice 123, Město</p>
+    <p>Telefon: +420 123 456 789</p>
+    <p>Email: info@pneuserviskamarad.cz</p>
+
+    <!-- Google Maps Embed -->
+    <div class="mt-4">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2530.123456789!2d14.42076!3d50.08804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b94c0d0e7f1a1%3A0x123456789abcdef!2sPrague!5e0!3m2!1scs!2scz!4v1671234567890" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+
+    <!-- Simple Contact Form -->
+    <form class="mt-6 bg-gray-50 p-4 rounded shadow" action="https://formspree.io/f/moqwrnke" method="POST">
+        <label class="block mb-2">Jméno</label>
+        <input type="text" name="name" required class="w-full p-2 border rounded mb-4">
+        <label class="block mb-2">Telefon</label>
+        <input type="tel" name="phone" required class="w-full p-2 border rounded mb-4">
+        <label class="block mb-2">Typ služby</label>
+        <input type="text" name="service" required class="w-full p-2 border rounded mb-4">
+        <label class="block mb-2">Preferovaný termín</label>
+        <input type="date" name="date" class="w-full p-2 border rounded mb-4">
+        <button type="submit" class="bg-blue-700 text-white px-4 py-2 rounded hover:bg-blue-800">Odeslat</button>
+    </form>
+</section>
+
+<!-- Footer -->
+<footer class="bg-blue-700 text-white text-center p-4 mt-8">
+    &copy; 2026 Pneuservis Kamarád. Všechna práva vyhrazena.
+</footer>
+
+</body>
+</html>
